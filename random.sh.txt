@@ -1,0 +1,7 @@
+#!/bin/bash
+echo -e "Please enter the Start-Number: "
+read start_num
+echo -e "Please enter the End-Number: "
+read end_num
+echo "Below are numbers from $start_num and $end_num"
+shuf -i "$start_num-$end_num"
